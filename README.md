@@ -1,4 +1,4 @@
-# arduino-due-javascript
+# arduino-due-javascript-relp
 Basic anduino projects using javascript, **johnny-five and firmata**
 
-*arduino-due-javascript-blink branch description:* Basic custom project to blinck the 13 pin with different phase.
+*arduino-due-javascript-relp branch description:* Basic custom project to ......
