@@ -9,17 +9,23 @@ board.on("ready", () => {
     board.repl.inject({
       on: () => {
         console.log('Led ON');
-        led.stop();
         led.on();
       },
       off: () => {
-        led.stop();
         console.log('Led OFF');
         led.off();
       },
       blink: () => {
-        console.log('Led Blink');
+        console.log('Led Blinking');
         led.blink()
+      },
+      stop: () => {
+        console.log('Led stop Blinking');
+        led.stop();
+      },
+      toogle: () => {
+        console.log('Led toogle');
+        led.toggle();
       }
     });
   });
