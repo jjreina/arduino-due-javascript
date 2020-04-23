@@ -23,8 +23,8 @@ board.on("ready", () => {
         console.log('Led stop Blinking');
         led.stop();
       },
-      toogle: () => {
-        console.log('Led toogle');
+      toggle: () => {
+        console.log('Led toggle');
         led.toggle();
       }
     });
